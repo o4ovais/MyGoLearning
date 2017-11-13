@@ -24,6 +24,6 @@ func main() {
 	case CURRENCY:
 		currency.ReadFinanceXML(network)
 	case AV:
-		av.ReadFinanceXML(network)
+		av.ReadAVStatusJSON()
 	}
 }
